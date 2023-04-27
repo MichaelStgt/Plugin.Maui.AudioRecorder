@@ -233,11 +233,6 @@ public class AudioRecorderAndroidImpl : IAudioRecorder, IDisposable
 		return Task.Run(() => WriteAudioDataToFile(), cancellationToken);
 	}
 
-	public Task PauseRecordAsync()
-	{
-		throw new NotImplementedException();
-	}
-
 	public Task<Audio> StopRecordAsync()
 	{
 		if (_audioRecord?.RecordingState is RecordState.Recording)
