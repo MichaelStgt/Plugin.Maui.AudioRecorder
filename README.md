@@ -102,6 +102,7 @@ private async void HandleStopRecord()
 
 ## Limitations
 * Transcription accuracy may vary depending on factors such as background noise, speaker accent, and speech speed.
+* This plugin only works on android. If you want, you can add support for other platforms via PRs.
 
 ## License
 This plugin is released under the GNU AFFERO GENERAL PUBLIC License. See the LICENSE file for details.
