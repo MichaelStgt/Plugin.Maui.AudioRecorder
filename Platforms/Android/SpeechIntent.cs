@@ -15,7 +15,6 @@ internal static class SpeechIntent
 		intent.PutExtra(RecognizerIntent.ExtraLanguage, javaLocale);
 		intent.PutExtra(RecognizerIntent.ExtraLanguageModel, RecognizerIntent.LanguageModelFreeForm);
 		intent.PutExtra(RecognizerIntent.ExtraCallingPackage, Android.App.Application.Context.PackageName);
-		intent.PutExtra(RecognizerIntent.ExtraSpeechInputCompleteSilenceLengthMillis, 8000);
 		intent.PutExtra(RecognizerIntent.ExtraPartialResults, true);
 
 		return intent;
